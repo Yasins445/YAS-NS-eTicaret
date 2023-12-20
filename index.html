@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <!--! Tailwind  -->
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- ! BOOSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body class="index-body">
+    <header>
+        <nav>
+            <div class="nav1">
+                <div class="logo">
+                    <a href="index.html">YASİN'S.COM</a>
+                </div>
+                <div class="inputkapsayici">
+                    
+                    <input class="aramacubuk" id="arama" type="search" placeholder="aradığınız ürün marka veya kategoriyi yazın ">
+                    
+                    <label for="arama"></label>
+                    <button class="aramabuton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <button id="sepet"><i class="fa-solid fa-cart-shopping"></i></button>
+          
+                <ul class="üst-ul">
+                    <li><a href="giris.html">giriş yap</a></li>
+                    <li><a href="sepet.html">sepet</a></li>
+                    <li><a href="favoriler.html">favorilerim</a></li>
+                </ul>
+                
+            </div>
+
+            <div class="nav2"> 
+              
+                <ul class="alt-ul">
+                    <li><a class="altbarlink" href="">Kadın</a></li>  
+                    
+                    <li><a class="altbarlink " href="">Erkek</a></li>
+                    <li><a class="altbarlink " href="">Çocuk</a></li>
+                    <li><a class="altbarlink " href="">Ev&Yaşam</a></li>
+                    <li><a class="altbarlink " href="">Kozmetik</a></li>
+                    <li><a class="altbarlink " href="">Aksesuar</a></li>
+                </ul>
+            </div>
+            <div class="bilgi-kapsayici">
+              <div class="önce ">bilgiler</div>
+              <div class="önce ">bilgiler</div>
+              <div class="önce ">bilgiler</div>
+              <div class="önce ">bilgiler</div>
+              <div class="önce ">bilgiler</div>
+              <div class="önce ">bilgiler</div>
+            </div>
+           
+        </nav>
+    </header>
+
+    <div class="basket">
+      
+      
+    </div>
+   
+    <main class="anasayfa-main">
+
+    <div id="urunler" class="grid conteiner w-full ">
+        <aside class="menu">
+          <ul class="flex flex-col gap-2 align-center ml-4 mt-4">
+              <li><p class="text-stone-900 text-2xl text-center mb-6">Filtreler</p></li>
+            <li>
+              <button value="" class="buton text-stone-900 ">Filtreleme</button>
+            </li>
+            <li>
+              <button value="men's clothing" class="buton text-stone-900">
+                Erkek Giyim
+              </button>
+            </li>
+            <li>
+              <button value="women's clothing" class="buton text-stone-900">
+                Kadın Giyim
+              </button>
+            </li>
+            <li>
+              <button value="jewelery" class="buton text-stone-900">Takı</button>
+            </li>
+            <li>
+              <button value="electronics" class="buton text-stone-900">
+                Elektronik
+              </button>
+            </li>
+            <li class="text-center text-stone-700 mt-4"><p>Fiyat Aralığı</p></li>
+            <li>
+              <input
+                min="0"
+                value="0"
+                type="number"
+                class="rounded focus:border-gray-400"
+                id="lowest"
+                type="text"
+                placeholder="En düşük"
+              /><input
+                min="0"
+                value="10000"
+                type="number"
+                id="highest"
+                placeholder="En yüksek"
+                type="text"
+              />
+            </li>
+            <li><button id="priceGapFinder" class="text-stone-200 text-center bg-stone-800 rounded-lg px-2 mt-2 py-2">Fiyat Aralığında bul</button></li>
+          </ul>
+        </aside>
+        
+        <div
+          id="wrapper"
+          class="grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols:1 lg:grid-cols:3 2xl:grid-cols-5 justify-items-center w-full"
+        ></div>
+      </div>
+
+
+      <div class="container">
+        <div class="row wrapper">
+ 
+
+
+          </div>
+          
+      
+      
+        
+
+      </div>
+      
+</div>
+
+
+
+</main>
+    <footer>
+        <div class="ayak-kapsayici">
+       
+            <div class="ayak-sütun">
+                <h2>YASİN'S</h2>
+                <p><a href="">Biz Kimiz</a></p><br>
+                <p><a href="">Kariyer</a></p> <br>
+                <p><a href="">İletişim</a></p> <br>
+            </div>
+
+
+            <div class="ayak-sütun">
+                <h2>HAKKIMIZDA</h2>
+                <p> <a href="">Biz kimiz</a></p> <br>
+                <p><a href="">Kariyer</a></p><br>
+                <p><a href="">Bize Ulaşın</a></p><br>
+            </div>
+
+         
+            <div class="ayak-sütun">
+                <h2>KAMPANYALAR</h2>
+                <p><a href="">Aktif Kampanyalar</a></p><br> 
+                <p><a href="">Elit Üyelik</a></p> <br>
+                <p> <a href="">Hediye Fikirleri</a></p><br>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+<!-- !boostrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/b4465fc5aa.js" crossorigin="anonymous"></script>
+<!-- 
+    <script src="script.js"></script> -->
+    <script src="deneme.js"></script>
+</body>
+</html>

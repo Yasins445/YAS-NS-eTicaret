@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaydol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="kaydolbody">
+    
+    <header>
+        <nav>
+            <div class="nav1">
+                <div class="logo">
+                    <a href="index.html">YASİN'S.COM</a>
+                </div>
+                <div class="inputkapsayici">
+                    
+                    <input class="aramacubuk" id="arama" type="search" placeholder="aradığınız ürün marka veya kategoriyi yazın ">
+                    
+                    <label for="arama"></label>
+                    <button class="aramabuton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <a href="sepet.html"><button class="sepet"><i class="fa-solid fa-cart-shopping"></i></button></a>
+          
+                <ul class="üst-ul">
+                    <li><a href="giris.html">giriş yap</a></li>
+                    <li><a href="sepet.html">sepet</a></li>
+                    <li><a href="favoriler.html">favorilerim</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+
+    <main class="giris-main">
+    <div class="giris-form-kapsayici">
+        
+        <form class="giris-form">
+            
+               <h1>HOŞGELDİNİZ</h1>
+               <h3>lütfen bilgileri giriniz</h3>
+
+                <label for="username"></label>
+                <input type="text" id="username" placeholder="isim soyisim" >
+                <br><br>
+                
+              <label for="password"></label>
+                <input type="password" id="password" placeholder="şifre">
+                <br><br>
+
+                
+                <button type="button" onclick="kayitOl()">Kayıt Ol</button>
+
+            
+        </form>
+    </div>
+    </main>
+    
+
+
+    <footer>
+        <div class="ayak-kapsayici">
+       
+            <div class="ayak-sütun">
+                <h2>YASİN'S</h2>
+                <p><a href="">Biz Kimiz</a></p><br>
+                <p><a href="">Kariyer</a></p> <br>
+                <p><a href="">İletişim</a></p> <br>
+            </div>
+
+
+            <div class="ayak-sütun">
+                <h2>HAKKIMIZDA</h2>
+                <p> <a href="">Biz kimiz</a></p> <br>
+                <p><a href="">Kariyer</a></p><br>
+                <p><a href="">Bize Ulaşın</a></p><br>
+            </div>
+
+         
+            <div class="ayak-sütun">
+                <h2>KAMPANYALAR</h2>
+                <p><a href="">Aktif Kampanyalar</a></p><br> 
+                <p><a href="">Elit Üyelik</a></p> <br>
+                <p> <a href="">Hediye Fikirleri</a></p><br>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- fontawesome -->
+<script src="https://kit.fontawesome.com/b4465fc5aa.js" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
